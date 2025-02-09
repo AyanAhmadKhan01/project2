@@ -13,7 +13,7 @@ export default function login() {
         <>
         <Boxcontainer>
         <div className="flex flex-col justify-center items-center ">
-       <Image src="/lock-keyhole-svgrepo-com.svg" alt="Login-svg" width={64} height={64}/>
+       <Image src="/lock-keyhole-svgrepo-com.svg" alt="Login-svg" width={64} height={64} priority={true}/>
           <h1 className="text-3xl text-white font-normal lowercase  mt-4 mb-8 tracking-tight">Login into account</h1>
   
           <div className="flex items-center gap-2">
