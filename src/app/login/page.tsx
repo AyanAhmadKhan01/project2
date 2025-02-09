@@ -6,14 +6,14 @@ import InputButton from "@/components/Inputs/InputButton";
 import Label from "@/components/Inputs/label";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
 import { faKey } from "@fortawesome/free-solid-svg-icons";
-
+import Image from "next/image";
 
 export default function login() {
     return(
         <>
         <Boxcontainer>
         <div className="flex flex-col justify-center items-center ">
-        <img src="/lock-keyhole-svgrepo-com.svg" alt="Login-svg" />
+       <Image src="/lock-keyhole-svgrepo-com.svg" alt="Login-svg" width={64} height={64}/>
           <h1 className="text-3xl text-white font-normal lowercase  mt-4 mb-8 tracking-tight">Login into account</h1>
   
           <div className="flex items-center gap-2">

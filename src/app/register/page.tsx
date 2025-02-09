@@ -10,13 +10,14 @@ import InputButton from "@/components/Inputs/InputButton";
 import Link from "next/link";
 import Icons from "@/components/Inputs/Icons";
 import Checkbox from "@/components/Inputs/Checkbox";
+import Image from "next/image";
 
 
 export default function Register() {
     return (
       <Boxcontainer>
         <div className="flex flex-col justify-center items-center ">
-        <img src="/add-square-svgrepo-com.svg" alt="Register-svg" />
+       <Image src="/add-square-svgrepo-com.svg" alt="Register-svg"/>
           <h1 className="text-3xl text-white font-normal lowercase  mt-4 mb-8 tracking-tight">Create A Account</h1>
   
           <div className="flex items-center gap-2">
