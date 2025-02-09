@@ -1,6 +1,6 @@
 "use client"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
 import { faKey, faUser } from "@fortawesome/free-solid-svg-icons";
 import Input from "@/components/Inputs/input";

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import useToggle from "@/hooks/useToggle";
-import { faCheck, faCheckSquare, faTicket } from "@fortawesome/free-solid-svg-icons";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 export default function Checkbox() {
 const [show, toggleshow] = useToggle();
