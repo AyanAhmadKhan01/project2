@@ -17,7 +17,7 @@ export default function Register() {
     return (
       <Boxcontainer>
         <div className="flex flex-col justify-center items-center ">
-       <Image src="/add-square-svgrepo-com.svg" alt="Register-svg" priority={true}/>
+       <Image src="/add-square-svgrepo-com.svg" alt="Register-svg" priority={true}  loading="eager"/>
           <h1 className="text-3xl text-white font-normal lowercase  mt-4 mb-8 tracking-tight">Create A Account</h1>
   
           <div className="flex items-center gap-2">
