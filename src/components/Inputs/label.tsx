@@ -3,12 +3,11 @@
 import React from "react";
 
 interface LableProps {
-    htmlFor: string;
     children: React.ReactNode;
 }
 
 
-export default function Label({ htmlFor, children}: LableProps) {
+export default function Label({ children}: LableProps) {
     return(
         <>
 <label 

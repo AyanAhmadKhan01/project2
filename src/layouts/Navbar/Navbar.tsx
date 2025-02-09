@@ -1,7 +1,6 @@
 "use client";
-import { Roboto } from "next/font/google";
+
 import Link from "next/link";
-import { RobotoFont } from "@/app/page";
 import NavLink from "./NavLink"
 import ClaimNowBtn from "../../components/Buttons/ClaimNowBtn";
 

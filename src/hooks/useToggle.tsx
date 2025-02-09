@@ -1,4 +1,3 @@
-import { stat } from "fs";
 import { useState } from "react";
 
 export default function useToggle(initialState = false) {

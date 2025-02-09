@@ -8,7 +8,6 @@ interface InputProps{
     placeholder?: string;
     value?: string;
     onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
-    className?: string;
 }
 
 export default function Input({ 
@@ -16,7 +15,6 @@ export default function Input({
     placeholder = "Enter text...", 
     value, 
     onChange, 
-    className 
 }: InputProps) {
     return (
         <input 
